@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="141.829">
+    <testcase classname="Customer Registration" name="As a customer, I want to add my name in oredr to register" time="50.612">
+        <failure message="expected:&lt;Error msg [not ]present&gt; but was:&lt;Error msg []present&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given User is on homepage of the website....................................passed
+When User clicks on Register button,........................................passed
+Then User is navigated to the Registration page.............................passed
+When User enters "Swamini" and "Sontakke"...................................passed
+Then Error msg should be displayed if user adds digits in the field.........failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Error msg [not ]present> but was:<Error msg []present>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at SDs.RegisterSd.the_names_are_visible_in_proper_format(RegisterSd.java:59)
+	at ✽.Error msg should be displayed if user adds digits in the field(file:///C:/Windows/System32/config/systemprofile/eclipse-workspace/Team5/src/test/resources/FeatFiles/Registration.feature:10)
+]]></failure>
+    </testcase>
+    <testcase classname="Customer Registration" name="As a customer, I want to add my name in oredr to register 2" time="43.337">
+        <failure message="expected:&lt;Error msg [not ]present&gt; but was:&lt;Error msg []present&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given User is on homepage of the website....................................passed
+When User clicks on Register button,........................................passed
+Then User is navigated to the Registration page.............................passed
+When User enters "Riya1" and "Sony".........................................passed
+Then Error msg should be displayed if user adds digits in the field.........failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Error msg [not ]present> but was:<Error msg []present>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at SDs.RegisterSd.the_names_are_visible_in_proper_format(RegisterSd.java:59)
+	at ✽.Error msg should be displayed if user adds digits in the field(file:///C:/Windows/System32/config/systemprofile/eclipse-workspace/Team5/src/test/resources/FeatFiles/Registration.feature:10)
+]]></failure>
+    </testcase>
+    <testcase classname="Customer Registration" name="As a customer, I want to add my name in oredr to register 3" time="47.048">
+        <failure message="expected:&lt;Error msg [not ]present&gt; but was:&lt;Error msg []present&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given User is on homepage of the website....................................passed
+When User clicks on Register button,........................................passed
+Then User is navigated to the Registration page.............................passed
+When User enters "Riya" and "Sony1".........................................passed
+Then Error msg should be displayed if user adds digits in the field.........failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Error msg [not ]present> but was:<Error msg []present>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at SDs.RegisterSd.the_names_are_visible_in_proper_format(RegisterSd.java:59)
+	at ✽.Error msg should be displayed if user adds digits in the field(file:///C:/Windows/System32/config/systemprofile/eclipse-workspace/Team5/src/test/resources/FeatFiles/Registration.feature:10)
+]]></failure>
+    </testcase>
+</testsuite>
