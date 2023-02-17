@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.06">
-<testcase classname="As a user I want search a flight" name="Verify the user is able to enter the date of travel" time="10.772">
-<system-out><![CDATA[Given The user launch the app 'BrownField' and is in the Home page..........passed
-When The user enters the date of travel '25/01/2022'........................passed
-Then The specified date '25/01/2022' should be selected.....................passed
-]]></system-out>
-</testcase>
-</testsuite>
