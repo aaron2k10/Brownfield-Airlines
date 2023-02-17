@@ -1,0 +1,4 @@
+com\stepdefinitions\stepsDefinitionsAPI.class
+com\testrunner\TestRunner.class
+com\stepdefinitions\Hooks.class
+com\stepdefinitions\StepDefinitions.class

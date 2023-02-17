@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.63">
+<testcase classname="As an employee I want add the flight in to the database" name="Verify the user is able to delete the flight" time="4.286">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given The user launch the app 'BrownField' and goes to the delete aeroplane tab.undefined
+When The user presses the delete button.....................................skipped
+Then The flight should be deleted...........................................skipped
+]]></failure>
+</testcase>
+</testsuite>
